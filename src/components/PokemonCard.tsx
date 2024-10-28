@@ -1,7 +1,7 @@
 
 interface Pokemon {
     name: string;
-    imgSrc: string | null;
+    imgSrc?: string | null;
   }
   
   interface PokemonCardProps {
